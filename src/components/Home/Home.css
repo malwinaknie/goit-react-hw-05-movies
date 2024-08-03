@@ -1,0 +1,28 @@
+.wrapper {
+    margin: 20px;
+  }
+  
+  .home-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .home-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .home-item {
+    margin-bottom: 10px;
+  }
+  
+  .home-item a {
+    text-decoration: none;
+    color: #0b7df8;
+    font-weight: bold;
+  }
+  
+  .home-item a:hover {
+    text-decoration: underline;
+  }
