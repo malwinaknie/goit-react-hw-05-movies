@@ -6,7 +6,7 @@ body {
   }
   
   .nav-links {
-    background-color: #333;
+    background-color: #1a1170;
     padding: 10px;
   }
   
@@ -19,11 +19,10 @@ body {
   }
   
   .nav-links a:hover {
-    color: #0b7df8;
+    color: #b6cee7;
   }
   
   .content-container {
-    max-width: 1200px;
     margin: 20px;
     padding: 20px;
     background-color: white;

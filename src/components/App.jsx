@@ -1,9 +1,13 @@
-import React, { Suspense } from 'react';
+import React, { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
-import Home from './Home/Home.jsx';
-import Movies from './Movies/Movies.jsx';
-import MovieDetails from './MovieDetails/MovieDetails.jsx';
 import './App/App.css';
+
+const Home = lazy(() => import('./Home/Home'));
+const Movies = lazy(() => import('./Movies/Movies'));
+const MovieDetails = lazy(() => import('./MovieDetails/MovieDetails'));
+const Cast = lazy(() => import('./Cast/Cast'));
+const Reviews = lazy(() => import('./Reviews/Reviews'));
+
 
 const App = () => {
   return (
